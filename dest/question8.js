@@ -6,4 +6,4 @@ function calculateOddSum(limit) {
     }
     return sum;
 }
-console.log(calculateOddSum(3));
+console.log(calculateOddSum(10));
