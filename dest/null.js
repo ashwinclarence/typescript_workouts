@@ -1,0 +1,10 @@
+"use strict";
+let teacherName = null;
+function get() {
+    if (teacherName) {
+        return teacherName;
+    }
+    else if (teacherName === null) {
+        return "This return null";
+    }
+}
