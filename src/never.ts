@@ -9,3 +9,7 @@ function throwError(message: string): never{
 function logMessage(message: string): void{
     console.log(message)
 }
+
+// The never type represents a type that never occurs.
+// It is used to indicate values that cannot
+// happen or functions that never return
